@@ -1,0 +1,14 @@
+<h1>View Your ToDo</h1>
+
+
+<p>
+  <%= @listing.description %>
+</p>
+
+<p>
+  <%= link_to "edit this ToDo", edit_listing_path(@listing) %>
+</p>
+
+<p>
+  <%= link_to "Return to Main Menu", listings_path %>
+</p>
